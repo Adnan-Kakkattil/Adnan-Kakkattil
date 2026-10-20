@@ -98,8 +98,9 @@
   const script = [
     { cmd: "whoami", out: "adnan_kakkattil  # builder · researcher · teacher" },
     { cmd: "cat origin.txt", out: "device=phone → tablet  tools=termux,linux  lab=none" },
+    { cmd: "cat career.log", out: "18 thothsparkz → red-team-labs → 19 gritstone → 22 EY" },
     { cmd: "ls ./skills", out: "vapt/  web-sec/  sqli/  idor/  auth/  llm-security/  full-stack/" },
-    { cmd: "echo $ROLE", out: "AI Security @ EY" },
+    { cmd: "echo $ROLE", out: "AI Security Engineer @ EY" },
     { cmd: "./teach --lang=ml", out: "Advanced Practical Ethical Hacking · 100+ students" },
   ];
   const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");

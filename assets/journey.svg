@@ -1,57 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Journey: phone and Termux, offensive fundamentals, VAPT and web security, educator, AI Security at EY">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Journey: phone and Termux, COVID lockdown lab, teaching on campus, Thothsparkz at 18, Red Team Labs, Gritstone at 19, a pause at 21, AI Security Engineer at EY at 22">
   <defs>
     <style>
       .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }
       .sans { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
-      .line { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 2.6s cubic-bezier(.2,.7,.1,1) .2s forwards; }
+      .line { stroke-dasharray: 1100; stroke-dashoffset: 1100; animation: draw 3.2s cubic-bezier(.2,.7,.1,1) .2s forwards; }
       @keyframes draw { to { stroke-dashoffset: 0 } }
       .n { opacity: 0; animation: pop .6s ease forwards; }
-      .n1 { animation-delay: .3s } .n2 { animation-delay: .8s } .n3 { animation-delay: 1.3s } .n4 { animation-delay: 1.8s } .n5 { animation-delay: 2.3s }
+      .n1 { animation-delay: .3s } .n2 { animation-delay: .65s } .n3 { animation-delay: 1s } .n4 { animation-delay: 1.35s }
+      .n5 { animation-delay: 1.7s } .n6 { animation-delay: 2.05s } .n7 { animation-delay: 2.4s } .n8 { animation-delay: 2.75s }
       @keyframes pop { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
-      .halo { animation: halo 2s ease-out 2.8s infinite; transform-origin: 1070px 110px; transform-box: view-box; opacity: 0; }
+      .halo { animation: halo 2s ease-out 3.2s infinite; transform-origin: 1110px 110px; transform-box: view-box; opacity: 0; }
       @keyframes halo { 0% { opacity: .8; transform: scale(1) } 100% { opacity: 0; transform: scale(2.6) } }
+      .when { font-size: 11px; fill: #c8ff3d; letter-spacing: .5px; }
+      .ttl { font-size: 15px; font-weight: 700; fill: #ece8df; }
+      .dsc { font-size: 12px; fill: #9a978e; }
     </style>
   </defs>
-  <rect x=".5" y=".5" width="1199" height="279" rx="20" fill="#0a0b09" stroke="#ece8df" stroke-opacity=".12"/>
-  <text x="40" y="48" class="mono" font-size="13" fill="#c8ff3d" letter-spacing="1.5">// THE JOURNEY  FROM A PHONE TO AI SECURITY</text>
+  <rect x=".5" y=".5" width="1199" height="299" rx="20" fill="#0a0b09" stroke="#ece8df" stroke-opacity=".12"/>
+  <text x="40" y="48" class="mono" font-size="13" fill="#c8ff3d" letter-spacing="1.5">// THE JOURNEY &#8212; FROM A PHONE TO AI SECURITY AT EY</text>
 
-  <path d="M130 110H1070" stroke="#ece8df" stroke-opacity=".12" stroke-width="2"/>
-  <path class="line" d="M130 110H1070" stroke="#c8ff3d" stroke-width="2"/>
+  <path d="M90 110H1110" stroke="#ece8df" stroke-opacity=".12" stroke-width="2"/>
+  <path class="line" d="M90 110H1110" stroke="#c8ff3d" stroke-width="2"/>
 
-  <g class="n n1">
-    <circle cx="130" cy="110" r="9" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
-    <text x="130" y="150" text-anchor="middle" class="mono" font-size="12" fill="#c8ff3d">6TH STANDARD</text>
-    <text x="130" y="178" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#ece8df">Phone + Termux</text>
-    <text x="130" y="202" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">First Linux tools on mobile.</text>
-    <text x="130" y="220" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">No lab. Just curiosity.</text>
+  <g class="n n1" text-anchor="middle">
+    <circle cx="90" cy="110" r="8" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
+    <text x="90" y="148" class="mono when">6TH STD</text>
+    <text x="90" y="174" class="sans ttl">Phone + Termux</text>
+    <text x="90" y="198" class="sans dsc">First Linux tools</text>
+    <text x="90" y="215" class="sans dsc">on a mobile phone</text>
   </g>
-  <g class="n n2">
-    <circle cx="365" cy="110" r="9" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
-    <text x="365" y="150" text-anchor="middle" class="mono" font-size="12" fill="#c8ff3d">TEEN YEARS</text>
-    <text x="365" y="178" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#ece8df">Offensive Fundamentals</text>
-    <text x="365" y="202" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">Linux, tooling, phishing &amp;</text>
-    <text x="365" y="220" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">spoofing  by trial and error.</text>
+  <g class="n n2" text-anchor="middle">
+    <circle cx="236" cy="110" r="8" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
+    <text x="236" y="148" class="mono when">10TH&#8211;+2 &#183; COVID</text>
+    <text x="236" y="174" class="sans ttl">Lockdown Lab</text>
+    <text x="236" y="198" class="sans dsc">Installed Kali Linux,</text>
+    <text x="236" y="215" class="sans dsc">practiced hands-on</text>
   </g>
-  <g class="n n3">
-    <circle cx="600" cy="110" r="9" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
-    <text x="600" y="150" text-anchor="middle" class="mono" font-size="12" fill="#c8ff3d">RESEARCH</text>
-    <text x="600" y="178" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#ece8df">VAPT &amp; Web Security</text>
-    <text x="600" y="202" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">SQLi, IDOR, broken auth,</text>
-    <text x="600" y="220" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">infra &amp; vulnerability chains.</text>
+  <g class="n n3" text-anchor="middle">
+    <circle cx="381" cy="110" r="8" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
+    <text x="381" y="148" class="mono when">BSC CS</text>
+    <text x="381" y="174" class="sans ttl">Teaching on Campus</text>
+    <text x="381" y="198" class="sans dsc">Sessions, workshops &amp;</text>
+    <text x="381" y="215" class="sans dsc">cyberbullying awareness</text>
   </g>
-  <g class="n n4">
-    <circle cx="835" cy="110" r="9" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
-    <text x="835" y="150" text-anchor="middle" class="mono" font-size="12" fill="#c8ff3d">TEACHING</text>
-    <text x="835" y="178" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#ece8df">Educator &amp; Creator</text>
-    <text x="835" y="202" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">Malayalam Udemy course,</text>
-    <text x="835" y="220" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">ZyrOps Academy, sessions.</text>
+  <g class="n n4" text-anchor="middle">
+    <circle cx="527" cy="110" r="8" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
+    <text x="527" y="148" class="mono when">AGE 18</text>
+    <text x="527" y="174" class="sans ttl">Thothsparkz LLP</text>
+    <text x="527" y="198" class="sans dsc">Jr Security Engineer</text>
+    <text x="527" y="215" class="sans dsc">&amp; security consultant</text>
   </g>
-  <g class="n n5">
-    <circle class="halo" cx="1070" cy="110" r="9" fill="#c8ff3d"/>
-    <circle cx="1070" cy="110" r="9" fill="#c8ff3d"/>
-    <text x="1070" y="150" text-anchor="middle" class="mono" font-size="12" fill="#c8ff3d">NOW</text>
-    <text x="1070" y="178" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#ece8df">AI Security · EY</text>
-    <text x="1070" y="202" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">Securing AI systems while</text>
-    <text x="1070" y="220" text-anchor="middle" class="sans" font-size="13" fill="#9a978e">building practical AI products.</text>
+  <g class="n n5" text-anchor="middle">
+    <circle cx="673" cy="110" r="8" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
+    <text x="673" y="148" class="mono when">2ND YEAR UG</text>
+    <text x="673" y="174" class="sans ttl">Red Team Labs</text>
+    <text x="673" y="198" class="sans dsc">Scholarship winner,</text>
+    <text x="673" y="215" class="sans dsc">certified pentester</text>
   </g>
+  <g class="n n6" text-anchor="middle">
+    <circle cx="819" cy="110" r="8" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
+    <text x="819" y="148" class="mono when">AGE 19</text>
+    <text x="819" y="174" class="sans ttl">Gritstone Tech</text>
+    <text x="819" y="198" class="sans dsc">Calicut Cyberpark &#183;</text>
+    <text x="819" y="215" class="sans dsc">3 yrs exp at graduation</text>
+  </g>
+  <g class="n n7" text-anchor="middle">
+    <circle cx="964" cy="110" r="8" fill="#0a0b09" stroke="#9a978e" stroke-width="2"/>
+    <text x="964" y="148" class="mono when">AGE 21</text>
+    <text x="964" y="174" class="sans ttl">The Pause</text>
+    <text x="964" y="198" class="sans dsc">Resigned to rest</text>
+    <text x="964" y="215" class="sans dsc">and reset</text>
+  </g>
+  <g class="n n8" text-anchor="middle">
+    <circle class="halo" cx="1110" cy="110" r="8" fill="#c8ff3d"/>
+    <circle cx="1110" cy="110" r="8" fill="#c8ff3d"/>
+    <text x="1110" y="148" class="mono when">AGE 22 &#183; NOW</text>
+    <text x="1110" y="174" class="sans ttl">EY</text>
+    <text x="1110" y="198" class="sans dsc">AI Security Engineer</text>
+    <text x="1110" y="215" class="sans dsc">cybersecurity + AI</text>
+  </g>
+
+  <text x="600" y="265" text-anchor="middle" class="sans" font-size="13" font-style="italic" fill="#9a978e">Hacking &#183; Development &#183; Security Consulting &#8594; AI Security</text>
 </svg>
